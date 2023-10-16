@@ -59,15 +59,11 @@
 //   })
   
 // // 
-// const numDivBy3 = () => {
+// const numDivBy3 = (object) => {
 //     if (number%3 === 0) {
-//         return "15 is divisible by three"
-//     } else if (number%3 === 1) {
-//         return "0 is divisible by three"
-//     } else if (number%3 === -1) {
-//         return "-7 is divisible by three"
+//         return `${number} is divisible by  three`
 //     } else {
-//         return "error"
+//         return `${number} is not divisible by three`
 //     }
 // }
 
@@ -84,6 +80,7 @@
 //              Create a function = numDivBy3
             //Parameter = number
             //create a conditional statement
+            //output: either divisible by 3 or not
             
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
@@ -108,5 +105,5 @@
 
 // Pseudo code:
     //create a function = newArray
-    //parameter (arrat, string)
+    //parameter (array, string)
     //use .toUpperCase method
