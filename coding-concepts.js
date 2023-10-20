@@ -24,7 +24,7 @@ const greeter = (name) => {
 console.log(greeter("LEARN Student"))
 
 // a) Your answer: error
-// b) Verify and explain: greeter function = takes 1 parameter (name)
+// b) Verify and explain: greeter function = takes 1 parameter (name), right answer is undefined
 
 // --------------------3) What will this log?
 
